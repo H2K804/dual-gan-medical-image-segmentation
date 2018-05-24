@@ -1,6 +1,6 @@
 ## Introduction
 
-We use the DualGAN architecture as proposed in [the paper](https://arxiv.org/pdf/1709.01872.pdf) to perform unsupervised image segmentation on Brain tumor scans.
+We use the DualGAN architecture as proposed in [the paper](https://arxiv.org/abs/1704.02510) to perform unsupervised image segmentation on Brain tumor scans.
 
 # Architecture of DualGAN
 
