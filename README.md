@@ -1,15 +1,15 @@
 ## Introduction
 
-We use the DualGAN architecture proposed in [the paper](https://arxiv.org/pdf/1709.01872.pdf) to perform unsupervised image segmentation on Brain tumor scans.
+We use the DualGAN architecture as proposed in [the paper](https://arxiv.org/pdf/1709.01872.pdf) to perform unsupervised image segmentation on Brain tumor scans.
 
-# architecture of DualGAN
+# Architecture of DualGAN
 
 ![architecture](https://github.com/duxingren14/DualGAN/blob/master/0.png)
 
 
 ## Dataset
 
-The dataset used is available [here](https://figshare.com/articles/brain_tumor_dataset/1512427) collected by the authors of the [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4598126/)
+The dataset used is available [here](https://figshare.com/articles/brain_tumor_dataset/1512427) collected by the authors of this [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4598126/)
 
 
 ## Prerequisites
@@ -24,9 +24,9 @@ The dataset used is available [here](https://figshare.com/articles/brain_tumor_d
 
 * TensorFlow 1.0 or later
 
-* MATLAB (for initial image processing)
+* MATLAB (for initial image processing and calculating DICE score)
 
-## steps
+## Steps
 
 * prepare images:
 ```
