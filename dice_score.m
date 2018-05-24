@@ -21,8 +21,8 @@ imshow(BW,[  ]);
 figure(3);
 imshowpair(I,BW,'montage');
 
-andImage = I & BW;
-orImage  = I | BW;
+andImage = binaryMask & BW;
+orImage  = binaryMask | BW;
 diceCoeff = sum(andImage) / sum(orImage);
 disp(diceCoeff);
 
